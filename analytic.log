@@ -1,0 +1,57 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/lib/hive/lib/log4j-slf4j-impl-2.4.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/lib/hadoop/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+
+Logging initialized using configuration in jar:file:/usr/lib/hive/lib/hive-common-2.1.1.jar!/hive-log4j2.properties Async: true
+WARNING: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
+Query ID = vymv5wvjpe_20180615013754_b7699edb-c47f-42f7-96d3-36cd04c135b2
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 3
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1528901646972_0008, Tracking URL = http://cluster-6570-m:8088/proxy/application_1528901646972_0008/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1528901646972_0008
+Hadoop job information for Stage-1: number of mappers: 3; number of reducers: 3
+2018-06-15 01:38:10,726 Stage-1 map = 0%,  reduce = 0%
+2018-06-15 01:38:29,158 Stage-1 map = 11%,  reduce = 0%, Cumulative CPU 11.8 sec
+2018-06-15 01:38:34,499 Stage-1 map = 33%,  reduce = 0%, Cumulative CPU 28.05 sec
+2018-06-15 01:38:39,802 Stage-1 map = 52%,  reduce = 0%, Cumulative CPU 33.78 sec
+2018-06-15 01:38:46,125 Stage-1 map = 78%,  reduce = 0%, Cumulative CPU 39.78 sec
+2018-06-15 01:38:51,434 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 44.89 sec
+2018-06-15 01:39:05,118 Stage-1 map = 100%,  reduce = 33%, Cumulative CPU 49.13 sec
+2018-06-15 01:39:06,162 Stage-1 map = 100%,  reduce = 67%, Cumulative CPU 53.58 sec
+2018-06-15 01:39:14,582 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 57.51 sec
+MapReduce Total cumulative CPU time: 57 seconds 510 msec
+Ended Job = job_1528901646972_0008
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 3  Reduce: 3   Cumulative CPU: 57.51 sec   HDFS Read: 698841654 HDFS Write: 21762 SUCCESS
+Total MapReduce CPU Time Spent: 57 seconds 510 msec
+OK
+[Назва]		32405541		1
+МАЛЕ ПІДПРИЄМСТВО "УНІВЕРСАЛ-ЛТД" ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ",МП "УНІВЕРСАЛ -ЛТД" /ТОВ/,19213810,65003	 Одеська обл.	 місто Одеса	 Суворовський район	1
+ФІРМА "ВОЛВА" ЛТД МАЛЕ ПІДПРИЄМСТВО У ВИГЛЯДІ ТОВАРИСТВА З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ",",13924094,65066	 Одеська обл.	 місто Одеса	 Суворовський район	2
+РЕЛІГІЙНА ГРОМАДА УКРАЇНСЬКЇ ПРАВОСЛАВНОЇ ЦЕРКВИ КИЇВСЬКОГО ПАТРІАРХАТУ С.КРИЧЕВО ТЯЧІВСЬКОГО РАЙОНУ СВ.ПЕТРА І ПАВЛА",",26529330,90511	 Закарпатська обл.	 Тячівський район	 село Кричово	1
+ПРИВАТНЕ ПІДПРИЄМСТВО "ЛФКС"	ПП "ЛФКС"	32887815	"ЛФКС, ВУЛИЦЯ ПАНІКАХІ, БУД.2, КВ.502, М.ДНІПРОПЕТРОВСЬК, ДНІПРОПЕТРОВСЬКА ОБЛ., УКРАЇНА	1
+ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ " ВІКСАН "	ТОВ "ВІКСАН"	33053066	-, ВУЛ. КОЗАЧА, 29-А, МІСТО КИЇВ, ГОЛОСІЇВСЬКИЙ РАЙОН, УКРАЇНА	1
+ПРИВАТНЕ ПІДПРИЄМСТВО ЦЕНТР ДУХОВНОГО ТА КУЛЬТУРНОГО РОЗВИТКУ ДІТЕЙ "НІРАНАНДА"		30184411	0, БРОВАРСЬКИЙ ПРОСПЕКТ, БУД.2, МІСТО КИЇВ, УКРАЇНА	1
+ПРИВАТНЕ ПІДПРИЄМСТВО "ГЛОРІЯ - А"		24931588	0, БУЛЬВАР ВЕРХОВНОЇ РАДИ, БУД. 10 - А, КВ. 27, М.КИЇВ, УКРАЇНА	1
+МАЛЕ ВИРОБНИЧЕ ПІДПРИЄМСТВО ФІРМА "БІОФАРМЕЛЕКТРО"		13689173	0, БУЛЬВАР ПЕРОВА, БУД.21-А, М.КИЇВ, УКРАЇНА	1
+ВИРОБНИЧО-КОМЕРЦІЙНА ФІРМА "КРІОЛА"		21572812	0, БУЛЬВАР ПЕРОВА, БУД.48-А, КВ.100, МІСТО КИЇВ, УКРАЇНА	1
+ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ "П.К.С."		25202118	0, ВУЛ. БЕРЕЗНЯКІВСЬКА, БУД.14-А, МІСТО КИЇВ, УКРАЇНА	1
+МАЛЕ ПРИВАТНЕ ПІДПРИЄМСТВО ФІРМА "НОРД"		21461797	0, ВУЛ. БУДІВЕЛЬНИКІВ, БУД. 43/12, К. 10, М.КИЇВ, УКРАЇНА	1
+МАЛЕ ПІДПРИЄМСТВО " ФІРМА "ВІКТОРІЯ - КОМПЛЕКС"		16476220	0, ВУЛ. ГАШЕКА, БУД. 4, М.КИЇВ, УКРАЇНА	1
+ПРИВАТНЕ ПІДПРИЄМСТВО "УКРПРОМСПЛАВ"	ПП"УКРПРОМСПОАВ"	31170635	0, ВУЛ. ДЕГТЯРІВСЬКА, Б.31, М. КИЇВ, УКРАЇНА	1
+ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ "МАРАФОН ЛТД"		21551075	0, ВУЛ. ЕНТУЗІАСТІВ, БУД. 9 - В, М.КИЇВ, УКРАЇНА	1
+ПРИВАТНЕ ПІДПРИЄМСТВО "МАЖОР"		30252067	0, ВУЛ. КАУНАСЬКА, БУД. 10 - А, М.КИЇВ, ДНІПРОВСЬКИЙ, УКРАЇНА	1
+ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ "БАЛТО"		30964726	0, ВУЛ. КАУНАСЬКА, БУД. 10 - А, ОФ. 604, М.КИЇВ, ДНІПРОВСЬКИЙ, УКРАЇНА	1
+СПІЛЬНЕ ЗАКРИТЕ АКЦІОНЕРНЕ ТОВАРИСТВО УКРАЇНСЬКО-КІПРСЬКЕ "ДІМЕКС"		20037985	0, ВУЛ. КИБАЛЬЧИЧА, БУД.8, К.88, М.КИЇВ, УКРАЇНА	1
+ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ "ГАРАНТ - СЕРВІС"		24743898	0, ВУЛ. КОСМІЧНА, БУД. 17, М.КИЇВ, УКРАЇНА	1
+ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ "ТУР СЕРВІС"	ТОВ "ТУР СЕРВІС"	33054000	0, ВУЛ. ЛЕНІНА, 34, МІСТО КИЇВ, УКРАЇНА	1
+Time taken: 81.156 seconds, Fetched: 20 row(s)
