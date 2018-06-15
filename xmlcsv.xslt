@@ -6,8 +6,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="/*/child::*">
 <xsl:for-each select="child::*">
-<xsl:if test="position() != last()">"<xsl:value-of select="normalize-space(replace(.,'""','""""'))"/>",</xsl:if>
-<xsl:if test="position()  = last()">"<xsl:value-of select="normalize-space(replace(.,'""','""""'))"/>"<xsl:text>&#10;</xsl:text>
+<xsl:if test="position() != last()">"<xsl:value-of select="normalize-space(replace(.,'&quot;','&quot;&quot;'))"/>",</xsl:if>
+<xsl:if test="position()  = last()">"<xsl:value-of select="normalize-space(replace(.,'&quot;','&quot;&quot;'))"/>"<xsl:text>&#10;</xsl:text>
 </xsl:if>
 </xsl:for-each>
 </xsl:template>
